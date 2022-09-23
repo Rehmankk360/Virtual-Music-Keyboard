@@ -1,28 +1,18 @@
 <script lang="ts">
-	let name: string = 'world';
+  import keyboardView from "./Views/KeyboardView.svelte"
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<keyboardView/>
 </main>
 
 <style lang="scss">
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
 
-		h1 {
-			color: #ff3e00;
-			text-transform: uppercase;
-			font-size: 4em;
-			font-weight: 100;
-		}
+section {
+    background-color: #2C394B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
-		@media (min-width: 640px) {
-			max-width: none;
-		}
-	}
 </style>

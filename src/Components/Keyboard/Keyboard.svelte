@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 <script>
   import { Piano, Drums, Controls } from "./Index";
   import {Speaker} from "../SharedComponents";
@@ -20,4 +19,3 @@
 <style>
     
 </style>
->>>>>>> Stashed changes
