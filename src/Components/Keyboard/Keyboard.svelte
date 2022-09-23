@@ -1,6 +1,7 @@
+
 <script>
   import { Piano, Drums, Controls } from "./Index";
-  import Speaker from "../SharedComponents/Speaker.svelte";
+  import {Speaker} from "../SharedComponents";
 </script>
 
 <div class="keyboard_wrapper">
