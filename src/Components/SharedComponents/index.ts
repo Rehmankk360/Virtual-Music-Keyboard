@@ -1,0 +1,6 @@
+export {default as Speaker} from "./Speaker.svelte"
+export {default as ControlKey} from "./ControlKey.svelte"
+export {default as Drum} from "./Drum.svelte"
+export {default as PianoKey} from "./PianoKey.svelte"
+export {default as VolumeChanger} from "./VolumeChanger.svelte"
+export {default as Display} from "./Display.svelte"
